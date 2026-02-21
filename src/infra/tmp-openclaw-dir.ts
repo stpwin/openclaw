@@ -31,6 +31,17 @@ function isNodeErrorWithCode(err: unknown, code: string): err is MaybeNodeError 
 export function resolvePreferredOpenClawTmpDir(
   options: ResolvePreferredOpenClawTmpDirOptions = {},
 ): string {
+  // Allow override via environment variable
+  const envLogDir = process.env.OPENCLAW_LOG_DIR?.trim();
+  if (envLogDir) {
+    try {
+      const mkdirSync = options.mkdirSync ?? fs.mkdirSync;
+      mkdirSync(envLogDir, { recursive: true, mode: 0o750 });
+    } catch {
+      // ignore if already exists
+    }
+    return envLogDir;
+  }
   const accessSync = options.accessSync ?? fs.accessSync;
   const lstatSync = options.lstatSync ?? fs.lstatSync;
   const mkdirSync = options.mkdirSync ?? fs.mkdirSync;
