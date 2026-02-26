@@ -35,6 +35,9 @@ Welcome to the lobster tank! 🦞
 - **Vincent Koc** - Agents, Telemetry, Hooks, Security
   - GitHub: [@vincentkoc](https://github.com/vincentkoc) · X: [@vincent_koc](https://x.com/vincent_koc)
 
+- **Val Alexander** - UI/UX, Docs, and Agent DevX
+  - GitHub: [@BunsDev](https://github.com/BunsDev) · X: [@BunsDev](https://x.com/BunsDev)
+
 - **Seb Slight** - Docs, Agent Reliability, Runtime Hardening
   - GitHub: [@sebslight](https://github.com/sebslight) · X: [@sebslig](https://x.com/sebslig)
 
@@ -47,6 +50,12 @@ Welcome to the lobster tank! 🦞
 - **Onur Solmaz** - Agents, dev workflows, ACP integrations, MS Teams
   - GitHub: [@onutc](https://github.com/onutc), [@osolmaz](https://github.com/osolmaz) · X: [@onusoz](https://x.com/onusoz)
 
+- **Josh Avant** - Core, CLI, Gateway, Security, Agents
+  - GitHub: [@joshavant](https://github.com/joshavant) · X: [@joshavant](https://x.com/joshavant)
+
+- **Jonathan Taylor** - ACP subsystem, Gateway features/bugs, Gog/Mog/Sog CLI's, SEDMAT
+  - Github [@visionik](https://github.com/visionik) · X: [@visionik](https://x.com/visionik)
+    
 ## How to Contribute
 
 1. **Bugs & small fixes** → Open a PR!
